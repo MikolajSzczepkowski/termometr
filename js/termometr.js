@@ -8,6 +8,8 @@ form.addEventListener('submit', function(e) {
 var celsjusToFahrenheit = function(cel){
 	if (typeof(cel)==="number"){
 	return (cel*2) + 30;
+
+	console.log('check')
 	}
 }
 var para = document.createElement('p');
